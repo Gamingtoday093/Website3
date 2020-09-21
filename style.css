@@ -2,7 +2,7 @@
 body {
 	padding: 0px;
 	margin: 0px;
-	height: 2000px;
+	height: 1000px;
 }
 
 .header {
@@ -31,21 +31,21 @@ transition: background-color 0.5s ease-in-out;
 
 .header button {
 	margin-left: 25px;
-	margin-top: 115px;
+	margin-top: 117.5px;
 	border: none;
 	background-color: transparent;
 	cursor: pointer;
 	outline: none;
 	color: white;
+	font-size: 100%;
 	font-family: 'Kumbh Sans', sans-serif;
 	position: absolute;
     left: 50%;
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    transform: translateX(-35%);
 }
 
 #first {
-    padding-right: 100px;
+    transform: translateX(-145%);
 }
 
 .header button:hover {
@@ -56,4 +56,62 @@ transition: background-color 0.5s ease-in-out;
 .header button:not(:hover) {
 	color: white;
 	transition: color 0.5s ease-in-out;
+}
+
+.header a {
+	margin-left: 25px;
+	margin-top: 117.5px;
+	border: none;
+	background-color: transparent;
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+	color: white;
+	font-size: 100%;
+	font-family: 'Kumbh Sans', sans-serif;
+	position: absolute;
+    left: 50%;
+    transform: translateX(-30%);
+}
+
+.header a:hover {
+	color: #327aed;
+	transition: color 0.5s ease-in-out;
+}
+
+.header a:not(:hover) {
+	color: white;
+	transition: color 0.5s ease-in-out;
+}
+/*
+.header ul {
+	list-style-type: none;
+	margin-top: 100px;
+	left: 50%;
+	transform: translateX(50%);
+	padding: 0;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+.header li {
+	font-family: 'Kumbh Sans', sans-serif;
+	color: black;
+	float: left;
+}
+
+.header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+*/
+
+.main {
+	margin-left: 20px;
+	margin-top: 160px;
+	font-size: 150%;
+	font-family: 'Kumbh Sans', sans-serif;
 }
